@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="learnjs.js"></script>
+</head>
+<body>
+  <style>
+    #text-input, .res, #question, .show, .query, .but, .sorted, #sorted{
+      margin: 30px;
+      text-align: center;
+      justify-content: center;
+      font-size: 30px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    #text-input{
+      width: 60px;
+    }
+    .my-array{
+      justify-content: center;
+      text-align: center;
+    }
+    .my-array input{
+      text-align: center;
+      font-size: 30px;
+    }
+  </style>
+  <div id="question">
+    What is the max. number in this array?<br>
+    (Pls enter enter your numbers without commas)
+  </div>
+  <div class="my-array" id="my-array">
+    <input type="text" id="inp">
+  </div>
+
+   <div class="query" id="query">
+     <input type="text" id="text-input" placeholder="Max">
+  </div>
+  <div class="but">
+    <button class="res" onclick="testjs()">Result</button>
+  </div>
+  <div class="show">
+    ...
+  </div>
+  <div class="sorted">
+    Sorted: <br>
+    <input type="text" name="Sorted" id="sorted">
+  </div>
+</body>
+</html>
